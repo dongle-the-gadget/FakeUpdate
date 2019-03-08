@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeUpdate", "FakeUpdate\FakeUpdate.csproj", "{042CF6E4-5B72-41B0-BC45-4517F2701C99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{042CF6E4-5B72-41B0-BC45-4517F2701C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042CF6E4-5B72-41B0-BC45-4517F2701C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042CF6E4-5B72-41B0-BC45-4517F2701C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042CF6E4-5B72-41B0-BC45-4517F2701C99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1CA27AF-9910-41B1-8A82-C24BF01CF523}
+	EndGlobalSection
+EndGlobal
