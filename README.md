@@ -23,3 +23,9 @@ NOTE:
   - To use spaces in your text, wrap your text in quotes "like this"
   - Using a CMD can be dangerous, by using the wrong CMD command you can potentially destroy your PC! Please always check what you are intended to run.
   - Using --h or --help will ignore all other arguments, so if you use --t, --p, --r, --c please make sure --h or --help is not available
+## Copyright
+This app is for non-commercial only. Any commercial use of this will be consider illegal and have to face the penalty under law. Licensed by MIT license
+## Trademarks
+Thanks to:
+  - FlyTech Videos (for some ideas and design)
+  - fakeupdate.net (for some ideas and design)
