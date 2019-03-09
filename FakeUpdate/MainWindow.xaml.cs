@@ -67,6 +67,8 @@ namespace FakeUpdate
             DataContext = ViewModel;
             ViewModel.CompleteEvent += ViewModel_CompleteEvent;
             InitializeComponent();
+            Closing += MainWindow_Closing;
+            HookKeyboard();
         }
 
         #region Windows Api
