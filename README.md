@@ -30,6 +30,8 @@ This computer program is protected by copyright law and international treaties. 
 
 ❌ Warranty
 
+❌ Liability
+
 ✔ Non-commercial use
 
 ## Trademarks
