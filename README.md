@@ -11,7 +11,7 @@ But I'm going to tell you:
 
 --t: Change the title (default: Configuring critical Windows Updates)
 
---p: Change the text "complete" to anything you like (default: complete) (example: you type --p fuck!, instead 0% complete, you will get 0% fuck!)
+--p: Change the text "complete" to anything you like (default: complete) (example: you type --p fuck!, instead of 0% complete, you will get 0% fuck!)
 
 --r: Change the request when the computer is "updating" (default: Do not turn off your PC)
 
@@ -21,4 +21,4 @@ But I'm going to tell you:
 
 NOTE:
   - To use spaces in your text, wrap your text in quotes "like this"
-  - Using a CMD can be dangerous, by using the wrong CMD command you can potentially destroy your PC! Please always check what you are intended.
+  - Using a CMD can be dangerous, by using the wrong CMD command you can potentially destroy your PC! Please always check what you are intended to run.
