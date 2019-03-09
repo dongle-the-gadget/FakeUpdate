@@ -22,3 +22,4 @@ But I'm going to tell you:
 NOTE:
   - To use spaces in your text, wrap your text in quotes "like this"
   - Using a CMD can be dangerous, by using the wrong CMD command you can potentially destroy your PC! Please always check what you are intended to run.
+  - Using --h or --help will ignore all other arguments, so if you use --t, --p, --r, --c please make sure --h or --help is not available
