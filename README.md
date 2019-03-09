@@ -24,7 +24,14 @@ NOTE:
   - Using a CMD can be dangerous, by using the wrong CMD command you can potentially destroy your PC! Please always check what you are intended to run.
   - Using --h or --help will ignore all other arguments, so if you use --t, --p, --r, --c please make sure --h or --help is not available
 ## Copyright
-This app is for non-commercial only. Any commercial use of this will be consider illegal and have to face the penalty under law. Licensed by MIT license
+This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result iin severe civil and criminal penalties, and will be prosecuted to the maximum extent under law.
+
+❌ Commercial use
+
+❌ Warranty
+
+✔ Non-commercial use
+
 ## Trademarks
 Thanks to:
   - FlyTech Videos (for some ideas and design)
