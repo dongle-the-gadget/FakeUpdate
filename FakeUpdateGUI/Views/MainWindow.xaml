@@ -1,0 +1,141 @@
+﻿<Window x:Class="FakeUpdate.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FakeUpdate"
+        mc:Ignorable="d"
+        Title="Update Simulator v2.0.0"
+        Height="319" Width="545"
+        xmlns:viewModels="clr-namespace:FakeUpdate.ViewModels"
+        xmlns:models="clr-namespace:FakeUpdate.Models"
+        xmlns:controls="clr-namespace:FakeUpdate.Controls"
+        ResizeMode="NoResize"
+        d:DataContext="{d:DesignInstance viewModels:MainViewModel, IsDesignTimeCreatable=True}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="112"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <TabControl Name="Tabs" ItemsSource="{Binding Updates}" SelectedItem="{Binding SelectedUpdate}">
+            <TabControl.ItemTemplate>
+                <DataTemplate DataType="{x:Type models:UpdateBase}">
+                    <TextBlock Text="{Binding Style}"/>
+                </DataTemplate>
+            </TabControl.ItemTemplate>
+            <TabControl.Resources>
+                <DataTemplate DataType="{x:Type models:Windows10Update}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="150"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                        </Grid.RowDefinitions>
+                        <Label>Title</Label>
+                        <TextBox Name="Title" Grid.Column="1" Text="{Binding Title}"/>
+                        <Label Grid.Row="1">Progress Indicator</Label>
+                        <DockPanel Grid.Row="1" Grid.Column="1">
+                            <TextBlock Text="0%" VerticalAlignment="Center"/>
+                            <TextBox Text="{Binding Indicator}" Margin="5,0,0,0"/>
+                        </DockPanel>
+                        <Label Grid.Row="2">Updating request</Label>
+                        <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding UpdatingRequest}"/>
+                        <Label Grid.Row="3">Delay (1-10 seconds)</Label>
+                        <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding Seconds}"/>
+                    </Grid>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type models:Windows7Update}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="150"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                        </Grid.RowDefinitions>
+                        <Label>Title</Label>
+                        <TextBox Name="Title" Grid.Column="1" Text="{Binding Title}"/>
+                        <Label Grid.Row="1">Progress Indicator</Label>
+                        <DockPanel Grid.Row="1" Grid.Column="1">
+                            <TextBlock Text="0%" VerticalAlignment="Center"/>
+                            <TextBox Text="{Binding Indicator}" Margin="5,0,0,0"/>
+                        </DockPanel>
+                        <Label Grid.Row="2">Updating request</Label>
+                        <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding UpdatingRequest}"/>
+                        <Label Grid.Row="3">Delay (1-10 seconds)</Label>
+                        <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding Seconds}"/>
+                    </Grid>
+                </DataTemplate>
+            </TabControl.Resources>
+        </TabControl>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label>Background color</Label>
+            <DockPanel Grid.Column="1" Margin="5">
+                <Grid VerticalAlignment="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Margin="0,0,1,0" VerticalAlignment="Center" Text="Red"/>
+                    <TextBox Grid.Column="1" Text="{Binding SelectedUpdate.BackgroundColor.R}"/>
+                    <TextBlock Grid.Column="2" Margin="0,0,1,0" VerticalAlignment="Center" Text="Green"/>
+                    <TextBox Grid.Column="3" Text="{Binding SelectedUpdate.BackgroundColor.G}"/>
+                    <TextBlock Grid.Column="4" Margin="0,0,1,0" VerticalAlignment="Center" Text="Blue"/>
+                    <TextBox Grid.Column="5" Text="{Binding SelectedUpdate.BackgroundColor.B}"/>
+                </Grid>
+            </DockPanel>
+            <Label Grid.Row="1">Foreground color</Label>
+            <DockPanel Grid.Row="1" Grid.Column="1" Margin="5">
+                <Grid VerticalAlignment="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Margin="0,0,1,0" VerticalAlignment="Center" Text="Red"/>
+                    <TextBox Grid.Column="1" Text="{Binding SelectedUpdate.ForegroundColor.R}"/>
+                    <TextBlock Grid.Column="2" Margin="0,0,1,0" VerticalAlignment="Center" Text="Green"/>
+                    <TextBox Grid.Column="3" Text="{Binding SelectedUpdate.ForegroundColor.G}"/>
+                    <TextBlock Grid.Column="4" Margin="0,0,1,0" VerticalAlignment="Center" Text="Blue"/>
+                    <TextBox Grid.Column="5" Text="{Binding SelectedUpdate.ForegroundColor.B}"/>
+                </Grid>
+            </DockPanel>
+            <Label Grid.Row="2">Starting progress</Label>
+            <DockPanel Grid.Row="2" Grid.Column="1" >
+                <TextBox Text="{Binding SelectedUpdate.Progress}"/>
+                <Label>%</Label>
+            </DockPanel>
+            <Label Grid.Row="4">Command after complete</Label>
+            <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding SelectedUpdate.Command}" Name="Command"/>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Button Width="115" Height="20" Grid.Column="1" Content="Update" Name="Update" Click="Update_Click"/>
+        </Grid>
+    </Grid>
+</Window>

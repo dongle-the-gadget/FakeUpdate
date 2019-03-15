@@ -1,0 +1,20 @@
+﻿Update Simulator
+
+
+winexe
+C#
+.cs
+C:\Users\minh3\Documents\FakeUpdateGUI\FakeUpdateGUI\obj\Release\
+FakeUpdate
+none
+false
+TRACE
+C:\Users\minh3\Documents\FakeUpdateGUI\FakeUpdateGUI\App.xaml
+5840398724
+
+19-309515049
+14434534373
+Controls\ProgressRing.xaml;Views\CreateEXECMD.xaml;Views\MainWindow.xaml;Views\Windows7UpdateWindow.xaml;Views\Windows10UpdateWindow.xaml;
+
+False
+
