@@ -11,7 +11,8 @@
         Cursor="None"
         xmlns:viewModels="clr-namespace:FakeUpdate.Models"
         d:DataContext="{d:DesignInstance viewModels:Windows7Update, IsDesignTimeCreatable=True}"
-        Title="Windows7UpdateWindow" Height="450" Width="800" FontFamily="Segoe UI Light" FontSize="24">
+        Title="Windows7UpdateWindow" Height="450" Width="800" FontFamily="Segoe UI Light" FontSize="24"
+        xmlns:gif="clr-namespace:WpfAnimatedGif">
     <Window.Style>
         <Style TargetType="Window">
             <Setter Property="Foreground">
@@ -26,17 +27,17 @@
             <ImageBrush ImageSource="/Update Simulator;component/Backgrounds/background.jpg"/>
         </Grid.Background>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Horizontal">
-            <controls:ProgressRing Margin="0,0,20,0" Width="40" IsActive="True" VerticalAlignment="Center"/>
+            <Image Margin="0,0,10,0" Height="20" gif:ImageBehavior.AnimatedSource="/Update Simulator;component/loading.gif"/>
             <StackPanel>
-                <TextBlock>
+                <TextBlock FontSize="22">
                     <Run Text="{Binding Title}"/>
                     <Run>1 of 1</Run>
                 </TextBlock>
-                <TextBlock>
+                <TextBlock FontSize="22">
                     <Run Text="{Binding Progress, StringFormat={}{0}%}"/>
                     <Run Text="{Binding Indicator}"/>
                 </TextBlock>
-                <TextBlock Text="{Binding UpdatingRequest}"/>
+                <TextBlock FontSize="22" Text="{Binding UpdatingRequest}"/>
             </StackPanel>
         </StackPanel>
     </Grid>

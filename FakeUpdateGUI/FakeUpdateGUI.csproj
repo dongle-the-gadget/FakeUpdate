@@ -67,6 +67,26 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Controls\ProgressRing.cs" />
+    <Compile Include="GifAnimation\AnimationCache.cs" />
+    <Compile Include="GifAnimation\Decoding\GifApplicationExtension.cs" />
+    <Compile Include="GifAnimation\Decoding\GifBlock.cs" />
+    <Compile Include="GifAnimation\Decoding\GifBlockKind.cs" />
+    <Compile Include="GifAnimation\Decoding\GifColor.cs" />
+    <Compile Include="GifAnimation\Decoding\GifCommentExtension.cs" />
+    <Compile Include="GifAnimation\Decoding\GifDecoderException.cs" />
+    <Compile Include="GifAnimation\Decoding\GifExtension.cs" />
+    <Compile Include="GifAnimation\Decoding\GifFile.cs" />
+    <Compile Include="GifAnimation\Decoding\GifFrame.cs" />
+    <Compile Include="GifAnimation\Decoding\GifGraphicControlExtension.cs" />
+    <Compile Include="GifAnimation\Decoding\GifHeader.cs" />
+    <Compile Include="GifAnimation\Decoding\GifHelpers.cs" />
+    <Compile Include="GifAnimation\Decoding\GifImageData.cs" />
+    <Compile Include="GifAnimation\Decoding\GifImageDescriptor.cs" />
+    <Compile Include="GifAnimation\Decoding\GifLogicalScreenDescriptor.cs" />
+    <Compile Include="GifAnimation\Decoding\GifPlainTextExtension.cs" />
+    <Compile Include="GifAnimation\Decoding\GifTrailer.cs" />
+    <Compile Include="GifAnimation\ImageAnimationController.cs" />
+    <Compile Include="GifAnimation\ImageBehaviour.cs" />
     <Compile Include="Models\CmdParameterAttribute.cs" />
     <Compile Include="Models\EditbleColor.cs" />
     <Compile Include="Models\UpdateAttribute.cs" />
@@ -148,5 +168,9 @@
   <ItemGroup>
     <Resource Include="Backgrounds\background.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="loading.gif" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

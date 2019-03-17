@@ -22,3 +22,4 @@ C:\Users\minh3\Documents\FakeUpdateGUI\FakeUpdateGUI\obj\Release\Update Simulato
 C:\Users\minh3\Documents\FakeUpdateGUI\FakeUpdateGUI\obj\Release\Update Simulator.g.resources
 C:\Users\minh3\Documents\FakeUpdateGUI\FakeUpdateGUI\obj\Release\Update Simulator.exe
 C:\Users\minh3\Documents\FakeUpdateGUI\FakeUpdateGUI\obj\Release\Update Simulator.pdb
+C:\Users\minh3\Documents\FakeUpdateGUI\FakeUpdateGUI\obj\Release\Update Simulator_Content.g.cs
