@@ -36,9 +36,9 @@ IMPORTANT:
 
 1. The Windows 7 Experience is ignored when you setup the Update screen in CMD.
 
-2. The ProgressRing has not been updated yet, I'm still using the Windows 10 ProgressRing.
-
 Update Simulator now brings you the Windows 7 Update Experience.
+
+Previously, I couldn't find the loading icon of Windows 7. But now, I have found it, properly fixed the code and it works.
 
 
 ## Command-line arguments
