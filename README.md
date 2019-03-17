@@ -32,9 +32,7 @@ Click "Update" for the Update screen.
 
 ## Windows 7 Experience
 
-IMPORTANT: 
-
-1. The Windows 7 Experience is ignored when you setup the Update screen in CMD.
+IMPORTANT: The Windows 7 Experience is ignored when you setup the Update screen in CMD.
 
 Update Simulator now brings you the Windows 7 Update Experience.
 
