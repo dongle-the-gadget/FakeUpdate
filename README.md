@@ -24,15 +24,14 @@ NOTE:
   - Using a CMD can be dangerous, by using the wrong CMD command you can potentially destroy your PC! Please always check what you are intended to run.
   - Using --h or --help will ignore all other arguments, so if you use --t, --p, --r, --c please make sure --h or --help is not available
 ## Copyright
-This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result iin severe civil and criminal penalties, and will be prosecuted to the maximum extent under law.
 
-❌ Commercial use
+As this app is open-source, you are allowed to edit this app and publish that changes, make sure that:
 
-❌ Warranty
+1. Your changes does not support for malicious intent (like inserting malware in the app).
 
-❌ Liability
+2. You are not allowed to make a profit (this app is free for everyone).
 
-✔ Non-commercial use
+3. Add this link to your website (if you publish it).
 
 ## Trademarks
 Thanks to:
