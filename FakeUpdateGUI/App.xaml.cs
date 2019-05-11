@@ -124,6 +124,8 @@ namespace FakeUpdate
                 Console.WriteLine("IMPORTANT:");
                 Console.WriteLine(" - If you are using Windows 7, background color is ignored.");
                 Console.WriteLine(" - To use spaces in your text, wrap your text in quotes \"like this\".");
+                Console.WriteLine(" - Unsafe mode and help will ignore all other flags.");
+                Console.WriteLine(" - Using a CMD command can be dangerous. If you use the --c flag, please consider reading the command again to prevent damages.");
                 Console.WriteLine();
                 FreeConsole();
             }
