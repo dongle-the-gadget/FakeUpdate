@@ -1,3 +1,5 @@
 FakeUpdateGUI/bin/
 FakeUpdateGUI/obj/
 .vs/
+FakeUpdateGUI/Properties/PublishProfiles/FolderProfile.pubxml.user
+FakeUpdateGUI/FakeUpdateGUI.csproj.user
