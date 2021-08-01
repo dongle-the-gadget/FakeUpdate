@@ -44,7 +44,7 @@ If you're too lazy to type it yourselves, here you come:
 
 NOTE:
   - To use spaces, wrap your text in quotes `"like this"`
-  - Using a CMD can be dangerous, by using the wrong CMD command you can potentially destroy your PC! Please always check if the command matches you intended to run.
+  - Using a CMD can be dangerous, by using the wrong CMD command you can potentially destroy your PC! Please always check if the command matches what you intended to run.
   - Using --h, -help or --enable-unsafe will ignore all other arguments, so if you want to change the design in CMD, please make sure --h, --help or --enable-unsafe is not available
 
 ## Trademarks
