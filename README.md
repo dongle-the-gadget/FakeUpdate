@@ -81,3 +81,5 @@ NOTE:
 Thanks to:
   - FlyTech Videos (for some ideas and design)
   - fakeupdate.net (for some ideas and design)
+  - https://github.com/XamlAnimatedGif/WpfAnimatedGif (for Windows 7 progress ring animation)
+  - MahApps (Windows 8/10 Progress Ring)
