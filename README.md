@@ -43,8 +43,8 @@ If you're too lazy to type it yourselves, here you come:
 --h: Show help
 
 NOTE:
-  - To use spaces in your text, wrap your text in quotes `"like this"`
-  - Using a CMD can be dangerous, by using the wrong CMD command you can potentially destroy your PC! Please always check what you are intended to run.
+  - To use spaces, wrap your text in quotes `"like this"`
+  - Using a CMD can be dangerous, by using the wrong CMD command you can potentially destroy your PC! Please always check if the command matches you intended to run.
   - Using --h, -help or --enable-unsafe will ignore all other arguments, so if you want to change the design in CMD, please make sure --h, --help or --enable-unsafe is not available
 
 ## Trademarks
