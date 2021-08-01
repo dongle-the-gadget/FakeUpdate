@@ -16,7 +16,7 @@ NOTE #2: If you use command line arguments, you will not get the Windows 7 updat
 
 If you're too lazy to type it yourselves, here you come:
 
---t: Change the title (default: Configuring critical Windows Updates)
+--t: Change the title (default: Working on updates)
 
 --i (previously --p): Text for indicator
 
