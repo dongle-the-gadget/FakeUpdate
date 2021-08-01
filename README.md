@@ -8,19 +8,19 @@ NOTE: As this app is written in C#, .NET Framework 4.6.1 is required.
 ### Command line arguments:
 --i (previously --p): Text for indicator
 
---br (New): Amount of red of the background
+--br (New): Amount of red of the background (0 - 255)
 
---bg (New): Amount of green of the background
+--bg (New): Amount of green of the background (0 - 255)
 
---bb (New): Amount of blue of the background
+--bb (New): Amount of blue of the background (0 - 255)
 
---fr (New): Amount of red of the foreground
+--fr (New): Amount of red of the foreground (0 - 255)
 
---fg (New): Amount of green of the background
+--fg (New): Amount of green of the background (0 - 255)
 
---bg (New): Amount of blue of the background
+--bg (New): Amount of blue of the background (0 - 255)
 
---d (New): Time (in seconds) you need to wait before the progress change (valid range: 1 - 10)
+--d (New): Delay (in seconds) between each process update (valid range: 1 - 10)
 
 --enable-unsafe (New): Launch GUI in Unsafe mode and ignores other flags
 
