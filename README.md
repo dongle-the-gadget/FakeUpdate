@@ -18,23 +18,23 @@ If you're too lazy to type it yourselves, here you come:
 
 --t: Change the title (default: Working on updates)
 
---i (previously --p): Text for indicator
+--i: Text for indicator
 
---br (New): Amount of red of the background
+--br: Amount of red of the background
 
---bg (New): Amount of green of the background
+--bg: Amount of green of the background
 
---bb (New): Amount of blue of the background
+--bb: Amount of blue of the background
 
---fr (New): Amount of red of the foreground
+--fr: Amount of red of the foreground
 
---fg (New): Amount of green of the background
+--fg: Amount of green of the background
 
---bg (New): Amount of blue of the background
+--bg: Amount of blue of the background
 
---d (New): Time (in seconds) you need to wait before the progress change (valid range: 1 - 10)
+--d: Time (in seconds) you need to wait before the progress change (valid range: 1 - 10)
 
---enable-unsafe (New): Launch GUI in Unsafe mode and ignores another flags
+--enable-unsafe: Launch GUI in Unsafe mode and ignores another flags
 
 --r: Change the request when the computer is "updating" (default: Do not turn off your PC)
 
