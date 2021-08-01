@@ -11,7 +11,7 @@
         Cursor="None"
         xmlns:viewModels="clr-namespace:FakeUpdate.Models"
         d:DataContext="{d:DesignInstance viewModels:Windows7Update, IsDesignTimeCreatable=True}"
-        Title="Windows7UpdateWindow" Height="450" Width="800" FontFamily="Segoe UI Light" FontSize="24"
+        Title="Windows7UpdateWindow" Height="450" Width="800" FontFamily="Segoe UI" FontSize="24"
         xmlns:gif="clr-namespace:WpfAnimatedGif">
     <Window.Style>
         <Style TargetType="Window">
@@ -24,10 +24,10 @@
     </Window.Style>
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/Update Simulator;component/Backgrounds/background.jpg"/>
+            <ImageBrush ImageSource="/Backgrounds/background.jpg"/>
         </Grid.Background>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Horizontal">
-            <Image Margin="0,0,10,0" Height="20" gif:ImageBehavior.AnimatedSource="/Update Simulator;component/loading.gif"/>
+            <Image Margin="0,0,10,0" Height="20" gif:ImageBehavior.AnimatedSource="/loading.gif"/>
             <StackPanel>
                 <TextBlock FontSize="22">
                     <Run Text="{Binding Title}"/>

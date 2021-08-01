@@ -1,34 +1,11 @@
 # FakeUpdate
-The app which creates a Windows Update experience
+The app which creates a Windows Update experience.
 
-NOTE: As this app is written in C#, .NET Framework 4.6.1 is required.
+.NET 5 Desktop Runtime or newer is required to run this program.
 
-## New features in Update Simulator version 2.0.0.0
+## New features in Update Simulator version 2.1
 
-### Command line arguments:
---i (previously --p): Text for indicator
-
---br (New): Amount of red of the background (0 - 255)
-
---bg (New): Amount of green of the background (0 - 255)
-
---bb (New): Amount of blue of the background (0 - 255)
-
---fr (New): Amount of red of the foreground (0 - 255)
-
---fg (New): Amount of green of the background (0 - 255)
-
---bg (New): Amount of blue of the background (0 - 255)
-
---d (New): Delay (in seconds) between each process update (valid range: 1 - 10)
-
---enable-unsafe (New): Launch GUI in Unsafe mode and ignores other flags
-
-### New GUI
-
-Now, Update Simulator has a brand new GUI that can control all parts of the Update, just like the command arguments.
-
-Click "Update" for the Update screen.
+Program ported to .NET 5.0
 
 ## Windows 7 Experience
 

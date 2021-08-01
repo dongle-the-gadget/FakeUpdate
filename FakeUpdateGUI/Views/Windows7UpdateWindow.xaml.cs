@@ -30,7 +30,12 @@ namespace FakeUpdate.Views
             DataContext = ViewModel;
             KeyDown += Window_PreviewKeyDown;
             Closing += Windows7UpdateWindow_Closing;
-            InitializeComponent();
+            try
+            {
+                InitializeComponent();
+            }
+            catch (Exception ex)
+            { }
             ViewModel.UpdateComplete += ViewModel_UpdateComplete;
             HookKeyboard();
         }

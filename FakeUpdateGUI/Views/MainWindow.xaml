@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FakeUpdate"
         mc:Ignorable="d"
-        Title="Update Simulator v2.0.0"
+        Title="Update Simulator v2.1.0"
         Height="319" Width="545"
         xmlns:viewModels="clr-namespace:FakeUpdate.ViewModels"
         xmlns:models="clr-namespace:FakeUpdate.Models"
