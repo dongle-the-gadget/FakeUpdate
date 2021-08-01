@@ -7,19 +7,12 @@ The app which creates a Windows Update experience.
 
 Program ported to .NET 5.0
 
-## Windows 7 Experience
-
-IMPORTANT: The Windows 7 Experience is ignored when you setup the Update screen in CMD.
-
-Update Simulator now brings you the Windows 7 Update Experience.
-
-Previously, I couldn't find the loading icon of Windows 7. But now, I have found it, properly fixed the code and it works.
-
-
 ## Command-line arguments
 For all command line helps, type --help or --h. For example: FakeUpdate.exe --help
 
 NOTE: To exit the app after --help or --h argument, you need to press Enter.
+
+NOTE #2: If you use command line arguments, you will not get the Windows 7 update experience. Windows 10 only.
 
 If you're too lazy to type it yourselves, here you come:
 
