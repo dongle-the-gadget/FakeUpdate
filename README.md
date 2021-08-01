@@ -1,12 +1,12 @@
 # FakeUpdate
-The app which creates a Windows Updates experience
+The app which creates a Windows Update experience
 
 NOTE: As this app is written in C#, .NET Framework 4.6.1 is required.
 
 ## New features in Update Simulator version 2.0.0.0
 
 ### Command line arguments:
---i (replaced from --p): Text for indicator
+--i (previously --p): Text for indicator
 
 --br (New): Amount of red of the background
 
@@ -22,9 +22,9 @@ NOTE: As this app is written in C#, .NET Framework 4.6.1 is required.
 
 --d (New): Time (in seconds) you need to wait before the progress change (valid range: 1 - 10)
 
---enable-unsafe (New): Launch GUI in Unsafe mode and ignores another flags
+--enable-unsafe (New): Launch GUI in Unsafe mode and ignores other flags
 
-### Newly-design GUI
+### New GUI
 
 Now, Update Simulator has a brand new GUI that can control all parts of the Update, just like the command arguments.
 
@@ -44,11 +44,11 @@ For all command line helps, type --help or --h. For example: FakeUpdate.exe --he
 
 NOTE: To exit the app after --help or --h argument, you need to press Enter.
 
-But I'm going to tell you:
+If you're too lazy to type it yourselves, here you come:
 
 --t: Change the title (default: Configuring critical Windows Updates)
 
---i (replaced from --p): Text for indicator
+--i (previously --p): Text for indicator
 
 --br (New): Amount of red of the background
 
@@ -73,18 +73,10 @@ But I'm going to tell you:
 --h: Show help
 
 NOTE:
-  - To use spaces in your text, wrap your text in quotes "like this"
+  - To use spaces in your text, wrap your text in quotes `"like this"`
   - Using a CMD can be dangerous, by using the wrong CMD command you can potentially destroy your PC! Please always check what you are intended to run.
   - Using --h, -help or --enable-unsafe will ignore all other arguments, so if you want to change the design in CMD, please make sure --h, --help or --enable-unsafe is not available
-## Copyright
 
-As this app is open-source, you are allowed to edit this app and publish that changes, make sure that:
-
-1. Your changes does not support for malicious intent (like inserting malware in the app).
-
-2. You are not allowed to make a profit (this app is free for everyone).
-
-3. Add this link to your website (if you publish it).
 ## Trademarks
 Thanks to:
   - FlyTech Videos (for some ideas and design)
