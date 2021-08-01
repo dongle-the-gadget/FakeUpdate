@@ -5,3 +5,4 @@ FakeUpdateGUI/Properties/PublishProfiles/FolderProfile.pubxml.user
 FakeUpdateGUI/FakeUpdateGUI.csproj.user
 FakeUpdateGUI/Properties/PublishProfiles/FolderProfile.pubxml
 FakeUpdateGUI/Properties/PublishProfiles/FolderProfile.pubxml.user
+*.user
